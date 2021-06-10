@@ -1,0 +1,20 @@
+
+1.encoding and decoding example:
+
+<html>
+<head>
+<title>javascript</title>
+</head>
+<body bgcolor=pink>
+<script>
+document.write(escape("Hello world"));
+document.write("<br>");
+document.write(escape("! #D$&()<>"));
+document.write("<br>");
+document.write(unescape("Hello%20world"));
+document.write("<br>");
+document.write(unescape("%21%20%23D%24%26%28%29%3C%3E"));
+document.write("<br>");
+</script>
+</body>
+</html>
